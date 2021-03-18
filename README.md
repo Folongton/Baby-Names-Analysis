@@ -18,11 +18,12 @@ Analysis of Baby names from SSA data for the past 110 years.
 3. Mapping sequence(Series) using lambda: sequence.map(lambda x: x[6:])
 5. Working with indexes: df.reset_index(), df.index.get_level_values(), df.reindex(), df.index.name, pd.MultiIndex.from_tuples()
 7. Sorting and locatiing : df.loc/iloc, df.sort_values(),  pd.notnull(), df.at[], 
-8. Groupping, aggregation (split-apply-combine) : df.groupby().agg() or . mean() , .max(), .min()., .nlargest()
-9. Iteration over gropped object: for key1, group1 in groupped1: ,
-10. Merging concatinating: pd.concat(), pd.merge(),
-11. Reshaping: df.pivot_table(), df.T, df.melt(), 
-12. 
-13. Quick scraping: pd.read_html()
-14. Data formatting and miscellaneous: preprocessing.MinMaxScaler(), SequenceMatcher(), Series.tolist(), Moving Average of series - Series.ewm(),
-15. Visualization ( and preparation for it) : lineplot, barplor, sns.lmplot(), df.plot(),
+8. 
+9. Groupping, aggregation (split-apply-combine) : df.groupby().agg() or . mean() , .max(), .min()., .nlargest()
+10. Iteration over gropped object: for key1, group1 in groupped1: ,
+11. Merging concatinating: pd.concat(), pd.merge(),
+12. Reshaping: df.pivot_table(), df.T, df.melt(), 
+13. 
+14. Quick scraping: pd.read_html()
+15. Data formatting and miscellaneous: preprocessing.MinMaxScaler(), SequenceMatcher(), Series.tolist(), Moving Average of series - Series.ewm(),
+16. Visualization ( and preparation for it) : lineplot, barplor, sns.lmplot(), df.plot(),
