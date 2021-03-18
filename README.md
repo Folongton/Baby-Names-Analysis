@@ -1,4 +1,4 @@
-# Exploratory-Baby-Names-Analysis
+# Exploratory Analysis of Baby Names
 Analysis of Baby names from SSA data for the past 110 years.
 
 *To save time navigating, please refer to the below contents and list of tools.*
