@@ -27,3 +27,21 @@ Analysis of Baby names from SSA data for the past 110 years.
 14. Quick scraping: pd.read_html()
 15. Data formatting and miscellaneous: preprocessing.MinMaxScaler(), SequenceMatcher(), Series.tolist(), Moving Average of series - Series.ewm(),
 16. Visualization ( and preparation for it) : lineplot, barplor, sns.lmplot(), df.plot(),
+
+#### Structure of analysis:
+1. Import all packages, module, classes needed and setting some basic settings.
+2. Reading data from 51 files separated by state.
+3. The most used name in a single year over all states.
+4. The most used name for each state for all years.
+5. Total US population by year.
+6. Total births by sex and year.
+7. Normalization before plotting.
+8. 10 most used names in all 110 years by sex.
+9. Unique names for male and female.
+10. The most used name each year by sex.
+11. How many years each top name was on a top.
+12. Top name for each year.
+13. Number of distinct names over years.
+14. Longest and Shortest names.
+15. Impact of alternative spelling.
+16.  Use of ethnic names over the years.
